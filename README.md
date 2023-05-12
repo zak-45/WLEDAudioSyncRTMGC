@@ -38,7 +38,8 @@ and copy the .key and .cert file under security folder.
 - `cd server`
 - `npm install` for the first time
 - `npm run dev`
---------------------------------
+```
+```
 - `cd views`
 - `npm install` for the first time
 - `npm run dev`
