@@ -25,7 +25,11 @@ Take your binary from release file depend of your OS, run it !
 
 https://github.com/zak-45/WLEDAudioSyncRTMGC/releases
 
-This is a portable nodejs version with all included (made with pkg)
+This is a portable nodejs version with all included (made with pkg). 
+
+Once running, open your browser and go to https://localhost:8000/WLEDAudioSyncRTMGC/
+
+You need to accept the self-signed certificate. If you want to customize it, you need to download the source, generate a certificate and copy the .key and .cert file under security folder.
 
 
 ## To start project locally (Dev version):
