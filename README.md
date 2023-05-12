@@ -15,6 +15,8 @@ https://github.com/MTG/essentia.js/tree/819c00e8f034dc709e3d330ed8ac9ed37dfdb767
 - Designed for easy integration to WLEDAudioSync Chataigne Module but should work with any OSC server.
 
 ```
+![image](https://github.com/zak-45/WLEDAudioSyncRTMGC/assets/121941293/44a77b46-2882-45e6-8bc6-4cc054bc6876)
+
 
 Node.js version used : 18.6. Dev made with vue.js & vite.js. Using osc.js (2.4.4) for OSC communication.
 
