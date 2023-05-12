@@ -21,17 +21,17 @@ https://github.com/MTG/essentia.js/tree/819c00e8f034dc709e3d330ed8ac9ed37dfdb767
 Node.js version used : 18.6. Dev made with vue.js & vite.js. Using osc.js (2.4.4) for OSC communication.
 
 ## Easy start :
-Take your binary from release file depend of your OS, run it ! 
-
 https://github.com/zak-45/WLEDAudioSyncRTMGC/releases
-
+```
+Take your binary from release file depend of your OS, run it ! 
 This is a portable nodejs version with all included (made with pkg). 
-
+```
 Once running, open your browser and go to https://localhost:8000/WLEDAudioSyncRTMGC/
-
-You need to accept the self-signed certificate. If you want to customize it, you need to download the source, generate a certificate and copy the .key and .cert file under security folder.
-
-
+```
+You need to accept the self-signed certificate. 
+If you want to customize it, you need to download the source, generate a certificate 
+and copy the .key and .cert file under security folder.
+```
 ## To start project locally (Dev version):
 - download all to your nodejs work folder
 
