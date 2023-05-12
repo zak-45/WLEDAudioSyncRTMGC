@@ -48,4 +48,5 @@ Default OSC ip address : 127.0.0.1
 Default OSC port : 12000
 
 Can be changed via Env variables.
+Good to set ENV_NODE=Production for better, increased performance before run the app.
 ```
