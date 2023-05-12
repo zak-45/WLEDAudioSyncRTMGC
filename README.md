@@ -38,7 +38,7 @@ You need to accept the self-signed certificate. If you want to customize it, you
 - `cd server`
 - `npm install` for the first time
 - `npm run dev`
-
+--------------------------------
 - `cd views`
 - `npm install` for the first time
 - `npm run dev`
