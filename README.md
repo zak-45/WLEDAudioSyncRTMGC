@@ -22,6 +22,7 @@ Node.js version used : 18.6. Dev made with vue.js & vite.js. Using osc.js (2.4.4
 
 ## Easy start :
 Take your binary from release file depend of your OS, run it ! 
+
 https://github.com/zak-45/WLEDAudioSyncRTMGC/releases
 
 This is a portable nodejs version with all included (made with pkg)
@@ -40,3 +41,11 @@ This is a portable nodejs version with all included (made with pkg)
 - `cd ../views`
 - `npm run build`
 
+## Nota:
+```
+Default server port : 8000
+Default OSC ip address : 127.0.0.1
+Default OSC port : 12000
+
+Can be changed via Env variables.
+```
