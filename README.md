@@ -21,7 +21,8 @@ https://github.com/MTG/essentia.js/tree/819c00e8f034dc709e3d330ed8ac9ed37dfdb767
 Node.js version used : 18.6. Dev made with vue.js & vite.js. Using osc.js (2.4.4) for OSC communication.
 
 ## Easy start :
-Take your binary file depend of your OS, run it !
+Take your binary from release file depend of your OS, run it ! 
+https://github.com/zak-45/WLEDAudioSyncRTMGC/releases
 
 This is a portable nodejs version with all included (made with pkg)
 
