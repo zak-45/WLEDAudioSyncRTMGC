@@ -4,8 +4,10 @@ Sending topTags via OSC.
 
 ## To start project locally (Dev version):
 - `cd server`
+- `npm install` for the first time
 - `npm run dev`
 - `cd ../views`
+- `npm install` for the first time
 - `npm run dev`
 
 ## To build for deployment:
