@@ -34,15 +34,17 @@ You need to accept the self-signed certificate. If you want to customize it, you
 
 ## To start project locally (Dev version):
 - download all to your nodejs work folder
+
 - `cd server`
 - `npm install` for the first time
 - `npm run dev`
-- `cd ../views`
+
+- `cd views`
 - `npm install` for the first time
 - `npm run dev`
 
 ## To build for deployment:
-- `cd ../views`
+- `cd views`
 - `npm run build`
 
 ## Nota:
