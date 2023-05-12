@@ -2,7 +2,7 @@
 Realtime music autotagging based on the Discogs taxonomy (400 subgenre tags). 
 Sending topTags via OSC.
 
-This is a 'hack' of the actual Esentia.js demo :
+This is a 'hack' of the actual Essentia.js demo :
 
 
 https://github.com/MTG/essentia.js/tree/819c00e8f034dc709e3d330ed8ac9ed37dfdb767/examples/demos/discogs-autotagging
