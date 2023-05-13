@@ -1,8 +1,9 @@
 {
-  "name": "WEB Server and OSC sending",
+  "name": "WrtmgcSRV",
   "version": "1.0.0",
   "description": "Node Web server for WLEDAudioSync RTMGC",
   "main": "WrtmgcSRV.js",
+  "bin": "WrtmgcSRV.js",
   "scripts": {
     "dev": "nodemon WrtmgcSRV.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "pkg": {
+	  "assets": ["public/**/*","security/**/*"]
   }
+  
 }

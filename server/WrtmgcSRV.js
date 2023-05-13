@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/', express.static('public'));
+app.use('/', express.static(__dirname + '/public'));
 
 // provide SRV informations
 app.get('/info/',  async function (req, res) {
@@ -74,8 +74,9 @@ app.post('/osc/msg/',  async function (req, res) {
 
 // create server
 https.createServer({
-  key: fs.readFileSync('security/server.key'),
-  cert: fs.readFileSync('security/server.cert')
+	// only ok for local running
+  key: fs.readFileSync(__dirname + '/security/server.key'),
+  cert: fs.readFileSync(__dirname + '/security/server.cert')
 }, app).listen(process.env.SRVPORT || 8000, '0.0.0.0', () => {
 	console.log('    SRVPORT e.g. 8080 for server PORT    ');
 	console.log('-----------------------------------------');
