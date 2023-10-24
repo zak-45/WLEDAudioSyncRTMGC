@@ -9,7 +9,7 @@ https://github.com/MTG/essentia.js/tree/819c00e8f034dc709e3d330ed8ac9ed37dfdb767
 
 ```
 
-- Replaced YT by device audio capture.
+- Replaced YT by audio device capture.
 - Should work on SmartPhone, Tablet,  PC computer ... every modern device with Chromium Based Browser.
 - Send top 5 predictions to OSC server via UDP. 
 - Designed for easy integration to WLEDAudioSync Chataigne Module but should work with any OSC server.
